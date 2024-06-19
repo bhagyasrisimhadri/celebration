@@ -1,0 +1,58 @@
+#main3 {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  /* height: 100vh; */
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  min-width:100px;
+
+}
+
+.counter {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+#increment-btn,
+#decrement-btn {
+  height: 20px;
+  width: 20px;
+  /* padding: 20 20px; */
+  /* border-radius: 10px; */
+  font-size: 15px;
+  background-color: cornsilk;
+  border: 2px solid cornsilk;
+  color: black;
+  
+  /* text-align:center ; */
+  margin-top: 15px;
+}
+
+
+#counter-value {
+  height: 50px;
+  min-width: 30px;
+  border-radius: 10px;
+  border-color: rgb(26, 26, 17);
+  /* margin-top: 0px; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#flavour{
+  margin-right: 15px;
+}
+#price{
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 20px;
+}
